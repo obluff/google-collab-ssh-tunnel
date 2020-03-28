@@ -11,8 +11,7 @@
   - `instancepw`
     - SSH password you use for your instance
 - run ```!bash bootup.sh```
-- Take the SSH commands outputted from the cell and forward in 
-- SSH into the machine (or use the jupyter lab instance that runs in the code)
+- Use ssh commands outputted in the collab notebook cell! 
 
 
 
