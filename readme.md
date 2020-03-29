@@ -21,8 +21,7 @@
 - Use ssh command outputted in the collab notebook cell. 
 
 ## TODO:
-- Add support for google drive persistent file system.
-
+- Add support for using google drive file system. 
 
 
 
