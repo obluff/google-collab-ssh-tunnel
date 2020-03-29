@@ -9,8 +9,11 @@
     - Your NGROK auth token 
   - `instancepw`
     - SSH password you use for your instance
+### Launching an Instance 
 - run ```!bash bootup.sh```
 - Use ssh commands outputted in the collab notebook cell! 
+### Launching an instance with bootstrap script
+- run ```!bash bootup.sh [PATH TO BOOTSTRAP SCRIPT]```
 
 
 
