@@ -15,9 +15,9 @@ instancepw=SSH INSTANCE PASSWORD
 ```
 ### Launching an Instance 
 - Open up a collab notebook and clone this repository
-- If you simply want to launch an SSH instance
+- To launch an SSH instance
    - run ```!bash bootup.sh```
-- If you want to launch an SSH instance with a bootstrap script
+- To launch an SSH instance with a bootstrap script.
    - run ```!bash bootup.sh [PATH TO BOOTSTRAP SCRIPT]```
 - Use ssh commands outputted in the collab notebook cell.
 
