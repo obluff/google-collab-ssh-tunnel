@@ -14,9 +14,11 @@
   - `instancepw`
     - SSH password you use for your instance
 ### Launching an Instance 
+- Open up a collab notebook and clone this repository
 - run ```!bash bootup.sh```
 - Use ssh commands outputted in the collab notebook cell.
 ### Launching an Instance with bootstrap script
+- Open up a collab notebook and clone this repository
 - run ```!bash bootup.sh [PATH TO BOOTSTRAP SCRIPT]```
 - Use ssh command outputted in the collab notebook cell. 
 
