@@ -9,18 +9,18 @@
 ## Usage:
 - Create an [NGROK](http://ngrok.com) account 
 - Create file `.env` file with the following fields and upload it to your collab notebook:
-  - `authtoken`
-    - Your NGROK auth token 
-  - `instancepw`
-    - SSH password you use for your instance
+```
+authtoken=NGROK AUTH TOKEN
+instancepw=SSH INSTANCE PASSWORD
+```
 ### Launching an Instance 
 - Open up a collab notebook and clone this repository
-- run ```!bash bootup.sh```
+- If you simply want to launch an SSH instance
+   - run ```!bash bootup.sh```
+- If you want to launch an SSH instance with a bootstrap script
+   - run ```!bash bootup.sh [PATH TO BOOTSTRAP SCRIPT]```
 - Use ssh commands outputted in the collab notebook cell.
-### Launching an Instance with bootstrap script
-- Open up a collab notebook and clone this repository
-- run ```!bash bootup.sh [PATH TO BOOTSTRAP SCRIPT]```
-- Use ssh command outputted in the collab notebook cell. 
+
 
 ## TODO:
 - Add support for using google drive file system. 
