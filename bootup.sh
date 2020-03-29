@@ -27,12 +27,12 @@ echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 echo "LD_LIBRARY_PATH=/usr/lib64-nvidia" >> /root/.bashrc
 echo "export LD_LIBRARY_PATH" >> /root/.bashrc
 
-nohup /usr/sbin/sshd -D &
+nohup /usr/sbin/sshd -D > sshd_log.out &
 
 sleep 10
 
 ### SETTING UP NGROK
-nohup ./ngrok authtoken $authtoken && ./ngrok tcp 22 &
+nohup ./ngrok authtoken $authtoken && ./ngrok tcp 22 > ngrok_log.out &
 
 sleep 10
 
