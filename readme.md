@@ -22,6 +22,7 @@
 
 ## TODO:
 - Add support for using google drive file system. 
-
+- Add bootstrap for Spark dev
+- Look into ways to mitigate collab notebook shutdown
 
 
