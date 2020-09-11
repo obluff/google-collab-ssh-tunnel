@@ -4,7 +4,7 @@
 - This is useful if:
   - You want a Free GPU
   - You want a more robust dev env than the collab notebooks. (i use this to run juptyer lab instances)
-  - You have low memory on your computer so even running Google Collab in browser is very slow.
+  - You have low memory on your computer so even running Google Collab in browser is slow.
   
 ## Usage:
 - Create an [NGROK](http://ngrok.com) account 
