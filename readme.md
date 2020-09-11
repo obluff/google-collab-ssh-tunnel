@@ -3,7 +3,7 @@
 - Adapted from this [stackoverflow answer](https://stackoverflow.com/questions/48459804/how-can-i-ssh-to-google-colaboratory-vm/53252985#53252985) which was adapted from this [gist](https://gist.github.com/creotiv/d091515703672ec0bf1a6271336806f0)
 - This is useful if:
   - You want a Free GPU
-  - You want a more robust dev env then the collab notebooks. (i use this to run juptyer lab instances)
+  - You want a more robust dev env than the collab notebooks. (i use this to run juptyer lab instances)
   - You have low memory on your computer so even running Google Collab in browser is very slow.
   
 ## Usage:
